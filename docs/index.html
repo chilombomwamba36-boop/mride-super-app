@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/mride-mark.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#FF6500" />
+    <meta name="description" content="Mrides — Your Ride. Your Way. Passenger rides, cargo transport, and boda-boda delivery across Zambia." />
+    <title>Mrides — Your Ride. Your Way.</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet & MapLibre GL Vector Renderer Assets -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              mrides: {
+                primary: '#FF6500',       // Primary orange
+                primaryHover: '#E55A00',  // Darker orange
+                lightOrange: '#FFF0E6',   // Light orange
+                accentYellow: '#FFE500',  // Accent yellow from logo
+                white: '#FFFFFF',
+                bg: '#F7F7F5',            // Light background
+                dark: '#15191C',          // Dark text
+              },
+              mmrides: {
+                primary: '#FF6500',
+                secondary: '#FFE500',
+                accent: '#FF6500',
+                accentHover: '#E55A00',
+                accentLight: '#FFF0E6',
+                bg: '#F7F7F5',
+                surface: '#FFFFFF',
+                dark: '#15191C',
+                card: '#FFFFFF',
+                muted: '#64748B',
+                border: '#E2E8F0',
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+              display: ['"Space Grotesk"', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      ::-webkit-scrollbar { width: 5px; height: 5px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #9CA3AF; }
+      .mrides-gradient { background: linear-gradient(135deg, #FF6500 0%, #FF8533 100%); }
+    </style>
+    <script type="module" crossorigin src="/assets/index-QFSo9oUr.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DBbPVK-M.css">
+  </head>
+  <body class="bg-[#F7F7F5] text-[#15191C] antialiased font-sans">
+    <div id="root"></div>
+  </body>
+</html>

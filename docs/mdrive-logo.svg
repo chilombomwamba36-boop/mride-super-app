@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- M Drive Logo: Orange M mark + wordmark -->
+  <rect x="2" y="6" width="48" height="48" rx="12" fill="#FF6500"/>
+  <path d="M14 40V22l10 12 10-12v18" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="60" y="26" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="22" fill="#15191C">M Drive</text>
+  <text x="60" y="44" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="500" font-size="10" fill="#6B7280" letter-spacing="0.5">YOUR RIDE. YOUR WAY.</text>
+</svg>
