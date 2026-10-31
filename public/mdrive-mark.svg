@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- M Drive Mark: Orange rounded square with white M -->
+  <rect x="0" y="0" width="48" height="48" rx="12" fill="#FF6500"/>
+  <path d="M12 36V16l12 14 12-14v20" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Yellow accent dot from logo -->
+  <circle cx="24" cy="14" r="2.5" fill="#FFE500"/>
+</svg>
